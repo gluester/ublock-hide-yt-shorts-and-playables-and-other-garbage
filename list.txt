@@ -40,6 +40,9 @@ www.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-rend
 ! Hide shorts category on homepage and search pages
 www.youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
 
+! Hide playables on homepage
+www.youtube.com##.ytd-rich-section-renderer.style-scope 
+
 !!! MOBILE !!!
 
 ! Hide all videos in home feed containing the phrase "#shorts"
